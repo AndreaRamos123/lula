@@ -36,6 +36,7 @@
     display: grid;
     grid-auto-flow: column;
     gap: 3em;
+    z-index: 1000;
 }
 
 .nav__item{
@@ -311,7 +312,7 @@
 /*Sección de contacto*/
 
 .formulario{
-    width: 450px;
+    width: 90%;
     margin: auto;
     background-color: burlywood;
     padding: 10px 20px;
@@ -374,4 +375,24 @@
     padding-bottom: 30px;
     padding-top: 20px;}
 
+.google{
+    width: 90%;
+    margin: auto;
+    background-color: burlywood;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
 
+@media (max-width:700px){
+    .contenedorflexible{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .google{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
