@@ -1,0 +1,59 @@
+/*Menú de navegación*/
+
+.nav{
+    background-color: burlywood;
+    height: 80px;
+    color: brown;
+
+    &__container{
+        display: flex;
+        height: 100%;
+        width: 90%;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo{
+        color: beige;
+        font-size: 60px;
+    }
+
+    &__menu{
+        display: grid;
+        grid-auto-flow: column;
+        gap: 3em;
+        z-index: 1000;
+    }
+
+    &__item{
+        color: brown;
+        text-decoration: none;
+        --clippy: polygon(0 1%, 0 1%, 0 100%, 0% 100%);
+        
+
+        
+    }
+}
+
+
+.nav__label, .nav__input{
+    display: none;
+}
+
+
+.nav__item::after{
+    content: "";
+    display: block;
+    background-color: beige;
+    width: 90%;
+    margin-top: 3px;
+    height: 3px;
+    clip-path: var(--clippy);
+    transition: clip-path .4s;
+}
+
+.nav__item:hover{
+    --clippy:polygon(0 1%, 100% 0, 100% 100%, 0 100%);
+}
+

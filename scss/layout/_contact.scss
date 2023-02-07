@@ -1,0 +1,70 @@
+/*Sección de contacto*/
+
+.formulario{
+    @include tamanio (90%, burlywood);
+    margin: auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 3px;
+
+    h2{
+        color: sienna;
+        text-align: center;
+        margin: 0;
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    input{
+        @include contact (100%, 20px, 15px);
+        padding: 7px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    textarea{
+        @extend .input;
+        padding: 7px;
+        border: none;
+        min-height: 100px;
+        max-height: 200px;
+        max-width: 100%;
+        
+    }
+}
+
+
+#boton{
+    color: brown;
+    padding: 15px;
+    background-color: beige;
+    border-color: brown;
+
+    &:hover{
+        cursor:pointer
+    }
+}
+
+
+.contenedorflexible{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    h2{
+        font-size: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: brown;
+        text-align: center;
+        padding-bottom: 30px;
+        padding-top: 20px;}
+}
+
+
+.google{
+    @include tamanio (90%, burlywood);
+    margin: auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+

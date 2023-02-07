@@ -1,0 +1,50 @@
+/*Imágenes de inicio*/
+
+
+.slide{
+    margin-top: 0;
+    margin-bottom: 60px;
+    width: 100%;
+
+
+    img{
+        height: 85vh;
+        object-fit: cover;
+    }
+
+    video{
+        height: 85vh;
+        object-fit: cover;
+    }
+}
+
+
+/*Seccion Quiénes somos*/
+
+.informacion{
+    width: 100%;
+    height: 65vh;
+
+    div h1{
+        font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(119, 59, 17);
+    text-align: center;
+    letter-spacing: 5px;
+    padding-bottom: 30px;
+    }
+
+    &__nosotras p{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(7, 7, 7);
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+
+
+

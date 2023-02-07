@@ -1,0 +1,17 @@
+@mixin tamanio($ancho, $bg){
+width:$ancho;
+background-color: $bg; 
+
+}
+
+@mixin tittle($fsize, $color, $letspacing){
+    font-size: $fsize ;
+    color: $color;
+    letter-spacing: $letspacing;
+}
+
+@mixin contact($ancho, $mbottom, $fsize){
+    width: $ancho;
+    margin-bottom: $mbottom;
+    font-size: $fsize;
+}

@@ -1,0 +1,81 @@
+/*Pie de página*/
+
+
+.pie-pagina{
+    width: 100%;
+    background-color: $color-second;
+    margin-top: 50px;
+
+    &__1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0;
+    }
+
+    &__logo h1 {
+        color: beige;
+        font-size: 40px; }
+    
+    }
+
+
+.box{
+
+    h2{
+        color: $color-main;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+
+    p{
+        color: brown;
+        margin-bottom: 10px;
+    }
+
+    
+
+    a{
+        color: $color-main;
+        margin-bottom: 10px;
+        text-decoration: none;
+
+        &:hover{
+            color: $color-tittle;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+
+.red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: $color-main;
+    margin-right: 10px;
+    background-color: $color-second;
+    text-align: center;
+    transition: all 300ms ease;
+
+}
+
+
+.pie-pagina__2{
+    background-color: $color-second;
+    padding: 15px 10px;
+    text-align: center;
+    color: black;
+
+    & small{
+        font-size: 15px;
+    }
+}
+
+
+
