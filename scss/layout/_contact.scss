@@ -2,6 +2,7 @@
 
 .formulario{
     @include tamanio (90%, burlywood);
+    height: 76vh;
     margin: auto;
     padding: 10px 20px;
     margin-top: 20px;
@@ -27,7 +28,7 @@
         padding: 7px;
         border: none;
         min-height: 100px;
-        max-height: 200px;
+        max-height: 150px;
         max-width: 100%;
         
     }
@@ -62,9 +63,10 @@
 
 .google{
     @include tamanio (90%, burlywood);
+    height: 76vh;
     margin: auto;
     padding: 10px 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 3px;
 }
 
